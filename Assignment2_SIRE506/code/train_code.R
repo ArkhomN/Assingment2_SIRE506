@@ -1,3 +1,9 @@
+---
+title: "Assignment2"
+author: "Niramai Arkhom"
+output: html_document
+---
+
 # Load required packages, install if necessary
 if (!require("gtsummary")) install.packages("gtsummary")
 if (!require("ggplot2")) install.packages("ggplot2")
