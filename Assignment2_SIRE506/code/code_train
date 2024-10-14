@@ -19,7 +19,7 @@ library(readr)
 library(gt)
 
 # Read data: Make path relative so it can work on other machines
-titanic_data <- read_csv("C:\\Users\\User\\Desktop\\Assignment2_SIRE506\\data\\train.csv")  
+titanic_data <- read_csv("..\\data\\train.csv")  
 View(titanic_data)
 
 # Create a summary table grouped by 'Survived'
